@@ -50,11 +50,16 @@ header h1 {
 }
 .small {
   margin-top: 1em;
+  color: #444;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 /*-- Article Styles--*/
 article {
   width: 768px;
-  margin: 0 auto; 
+  margin: 0 auto;
   font-size: 18px;
   line-height: 1.3;
 }
