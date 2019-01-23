@@ -1,19 +1,20 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
 body {
-  color: #444;
+  color: #ababab;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
+  background-color: #000000;
 }
 p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #2d2d2d;
 }
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color: #D0D0D;
 }
 /*-- Main Menu Styles--*/
 nav ul {
@@ -50,7 +51,7 @@ header h1 {
 }
 .small {
   margin-top: 1em;
-  color: #444;
+  color: #ababab;
   font-size: 14px;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
@@ -69,7 +70,7 @@ article figure {
   margin: 0 0 1.25em 1.25em;
 }
 article figcaption {
-  color: #444;
+  color: #ababab;
   font-size: 14px;
   font-family: 'Cambria', serif;
   font-weight: 300;
@@ -81,19 +82,19 @@ article figcaption {
   justify-content: space-between;
 }
 a.button {
-  border: 1px solid #888;
+  border: 1px solid #ababab;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: #ababab;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 1px solid #8d2663;
   text-decoration: none;
-  color: #222;
+  color: #8d2663;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
